@@ -15,3 +15,10 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+
+fetch('http://localhost:3000/users.json').then(response => {
+	return response.json()
+}).then(users => {
+	console.log(users)
+})

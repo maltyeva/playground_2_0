@@ -9,6 +9,7 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
     origins 'localhost:3000'
+    # origins 'https://47e3487d2018.ngrok.io'
     # origins Rails.application.credentials.allowed_cors_orgins
 
     resource '*',
