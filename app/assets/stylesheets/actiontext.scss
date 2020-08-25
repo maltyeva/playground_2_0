@@ -34,3 +34,13 @@
     }
   }
 }
+
+.trix-content {
+  pre.hljs {
+    background: #282828
+  }
+}
+
+trix-editor {
+  min-height: 250px;
+}
